@@ -131,10 +131,7 @@ const Todo = () => {
   }, [filterOption, todoList])
 
   return (
-    <div
-      style={{ width: "500px" }}
-      // style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
-    >
+    <div style={{ width: "500px" }}>
       <ProgressBar
         progress={totalCompleted}
         total={todoList.length}
@@ -158,15 +155,8 @@ const Todo = () => {
       ) : (
         <div>No Items Found...</div>
       )}
-      {/* <button onClick={handleClick}></button> */}
       <div
         className="add-todo"
-        // style={{
-        //   width: "100%",
-        //   display: "inline-grid",
-        //   gap: 10,
-        //   gridTemplateColumns: "1fr 82px"
-        // }}
         style={{
           display: "flex",
           alignItems: "center",
