@@ -1,0 +1,35 @@
+.add-todo input[type="text"] {
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+.todo-popper-box div {
+  padding: 5px 10px;
+}
+
+.todo-options div {
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.todo-options div:hover {
+  background-color: lightblue;
+}
+
+.delete-confirm .confirm {
+  background-color: white;
+  &:hover {
+    background-color: forestgreen;
+  }
+}
+
+.delete-confirm .cancel {
+  background-color: white;
+  &:hover {
+    background-color: #f3d5d5;
+  }
+}
+
+.delete-confirm .header {
+  background-color: orange;
+}
