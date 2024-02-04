@@ -140,7 +140,8 @@ const Todo = () => {
         style={{
           display: "flex",
           flexGrow: 1,
-          justifyContent: "space-around",
+          marginTop: "20px",
+          justifyContent: "space-between",
           alignItems: "center"
         }}
       >
