@@ -33,3 +33,10 @@
 .delete-confirm .header {
   background-color: orange;
 }
+
+.todo-item .todo-options-button {
+  background-color: "lightgrey";
+  &:hover {
+    background-color: #bfbfbf;
+  }
+}

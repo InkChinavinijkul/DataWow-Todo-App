@@ -45,6 +45,7 @@ const TodoListItem = (props: ITodoListItemProps): JSX.Element => {
 
   return (
     <div
+      className="todo-item"
       style={{
         width: "100%",
         height: "46px",
@@ -109,9 +110,10 @@ const TodoListItem = (props: ITodoListItemProps): JSX.Element => {
             {completed ? <s style={{ color: "#A9A9A9" }}>{title}</s> : title}
           </div>
           <div
+            className={"todo-options-button"}
             style={{
               textAlign: "center",
-              backgroundColor: "lightgrey",
+              borderRadius: "50%",
               color: "black",
               width: "24px",
               height: "24px",
